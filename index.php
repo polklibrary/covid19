@@ -1,22 +1,24 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html>
 <head>
     <title>Lab Cleaning (COVID19)</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    
 
 </head>
 <body>
-
+    
+    <div id="header">
+        COVID 19 - Cleaning Assistant
+    </div>
 
     
-
-
-
-
-
-
+    <div id="home">
+        <h3>Labs</h3>
+        <a href="polk101.php">Polk 101</a>
+        <a href="sage.php">Sage</a>
+    </div>
 
 </body>
 </html>

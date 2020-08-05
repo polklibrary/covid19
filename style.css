@@ -36,6 +36,26 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    background-color: rgba(102, 102, 102, 0.8);
+    border-bottom: 1px solid #cccccc;
+    color: white;
+    font-size: 19.5px;
+    font-weight: normal;
+    padding: 5px 10px;
+    margin: 5px 0px;
+}
+
+#home {
+    padding: 20px;
+}
+#home a {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1754ff;
+}
+
 #audio{
     display:none;
 }
