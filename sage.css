@@ -1,0 +1,140 @@
+/* .row { */
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+/* } */
+/* .jr{ justify-content: flex-end;} */
+/* .jc{ justify-content: center;} */
+/* .jl{ justify-content: flex-start;} */
+/* ce{ */
+    /* display: block; */
+/* } */
+
+#content {
+    position: relative;
+}
+
+#img {
+    border: 5px solid #666;
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 0;
+    margin-bottom: 20px;
+}
+
+.group {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+#row1 {
+    position: absolute;
+    left: 340px;
+    top: 0px;
+    z-index: 1;
+    width: 653px;
+    height: 38px;
+}
+
+#row2 {
+    position: absolute;
+    left: 138px;
+    top: 125px;
+    z-index: 1;
+    width: 150px;
+    height: 38px;
+}
+
+#row3 {
+    position: absolute;
+    left: 136px;
+    top: 425px;
+    z-index: 1;
+    width: 150px;
+    height: 38px;
+}
+
+#row4 {
+    position: absolute;
+    left: 384px;
+    top: 120px;
+    z-index: 1;
+    width: 488px;
+    height: 38px;
+}
+#row5 {
+    position: absolute;
+    left: 444px;
+    top: 120px;
+    z-index: 1;
+    width: 488px;
+    height: 38px;
+}
+
+
+#row6 {
+    position: absolute;
+    left: 695px;
+    top: 120px;
+    z-index: 1;
+    width: 488px;
+    height: 38px;
+}
+#row7 {
+    position: absolute;
+    left: 755px;
+    top: 120px;
+    z-index: 1;
+    width: 488px;
+    height: 38px;
+}
+
+#row8 {
+    position: absolute;
+    left: 1066px;
+    top: 120px;
+    z-index: 1;
+    width: 488px;
+    height: 38px;
+}
+#row9 {
+    position: absolute;
+    left: 1126px;
+    top: 120px;
+    z-index: 1;
+    width: 488px;
+    height: 38px;
+}
+
+#row10 {
+    position: absolute;
+    left: 615px;
+    top: 626px;
+    z-index: 1;
+    width: 150px;
+    height: 38px;
+}
+
+#row11 {
+    position: absolute;
+    left: 983px;
+    top: 626px;
+    z-index: 1;
+    width: 150px;
+    height: 38px;
+}
+
+
+
+
+
+
+.rotate90{
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+

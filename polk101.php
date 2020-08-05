@@ -1,9 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html>
 <head>
     <title>Lab Cleaning (COVID19)</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="polk.css" />
+    <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="main.js"></script>
     <script>
         var KeyServerID = '2286e8e2639f6543881fdf00f64ce78c';

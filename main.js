@@ -22,7 +22,18 @@ var Mapper = {
         this.CleanReset();
         this.GetData();
         this.Start();
+        //this.Cursor();
     },
+    
+    
+    Cursor : function(){
+        $('#content').on( "mousemove", function( e ) {
+            var relX = e.pageX - $(this).offset().left - 10;
+            var relY = e.pageY - $(this).offset().top  - 10;
+            console.log(relX + "," + relY );
+        });
+    },
+    
     
     Start : function(){
         Mapper._Thread = setInterval(function(){
@@ -52,7 +63,7 @@ var Mapper = {
             Mapper.GenerateHTMLList();
             Mapper.CheckData();
             
-            console.log(new Date(response.timestamp));
+            //console.log(new Date(response.timestamp));
             console.log(response);
         });
         
@@ -149,6 +160,7 @@ var Mapper = {
     
     SetupTests : function(){
         $('#test').show().on('click',function(){
+            console.log('Test running');
             $('.computer').each(function(){
                 // 10% chance
                 if (Math.floor(Math.random() * 10) == 0) {
@@ -156,7 +168,7 @@ var Mapper = {
                 }
             });
         });
-    },
+    }
     
 }
 

@@ -1,3 +1,7 @@
+#test {
+    display: block;
+}
+
 html { 
     height: 100%;  
     width: 100%; 
@@ -106,12 +110,6 @@ h2 {
 }
 
 
-
-
-
-
-
-
 .group {
     position: relative;
     margin: 10px;
@@ -154,6 +152,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     top: 0;
     right: 0;
     left: 0;
@@ -168,35 +167,12 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
 }
-
-
-
-.row {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.jr{ justify-content: flex-end;}
-.jc{ justify-content: center;}
-.jl{ justify-content: flex-start;}
-ce{
-    display: block;
-}
-
-.lpod{
-    width: 425px;
-    height: 75px;
-}
-.spod{
-    width: 175px;
-    height: 75px;
-}
-
 
 
 
