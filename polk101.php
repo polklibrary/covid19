@@ -7,6 +7,10 @@
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="main.js"></script>
     <script>
+    
+        // REDIRECT
+        document.location.href = 'https://polk.uwosh.edu/covid19/trunk/polk.php';
+    
         var KeyServerID = '2286e8e2639f6543881fdf00f64ce78c';
         
         var MAP = {
