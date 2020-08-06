@@ -127,7 +127,21 @@
         
         
     </div>
-
+    
+    <div id="help">
+        <div class="label">
+            HELP
+        </div>
+        <div class="information">
+            <ul>
+                <li>Once area is cleaned, simply <u>click</u> on the flashing <b>"Needs Cleaning"</b> to mark it cleaned.</li>
+                <li>Remember to flip the "Cleaned" paper back over the monitor once sterilized.</li>
+                <li>Checks computer status every 15 seconds by default.</li>
+                <li>If sound is on, you will hear a notification alert.</li>
+            </ul>
+        </div>
+        
+    </div>
 
     <audio id="audio">
         <source src="beep.mp3" type="audio/mp3">

@@ -196,4 +196,52 @@ h3 {
 }
 
 
+#help {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    right: -402px;
+    top: 150px;
+}
+
+#help.open {
+    transform: translate(-402px, 0px);
+    transition: transform 330ms ease-in-out;
+    z-index: 100;
+}
+
+#help .label{
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    writing-mode: tb;
+    -ms-writing-mode: tb-rl;
+    background-color: #3196de;
+    width: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding: 10px 7px 10px 5px;
+    cursor: pointer;
+    height: 150px;
+}
+
+#help .information{
+    border: 1px solid #666;
+    background-color: #d4dfff;
+    font-size: 14px;
+    width: 400px;
+    height: 170px;
+}
+#help .information ul{
+    padding: 5px 25px 5px 25px;
+    margin: 0;
+}
+#help .information ul li{
+    padding: 0;
+    margin: 0 0 10px 0;
+}
 

@@ -22,7 +22,17 @@ var Mapper = {
         this.CleanReset();
         this.GetData();
         this.Start();
-        this.Cursor();
+        this.Help();
+        //this.Cursor();
+    },
+    
+    
+    Help : function(){
+        $('#help').on('click', function(){
+            $(this).toggleClass('open');
+            
+        });
+        
     },
     
     
