@@ -16,6 +16,7 @@
     
     <div id="home">
         <h3>Labs</h3>
+        <a href="halsey.php">Halsey</a>
         <a href="polk.php">Polk 101</a>
         <a href="sage.php">Sage</a>
     </div>

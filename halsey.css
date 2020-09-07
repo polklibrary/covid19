@@ -1,0 +1,135 @@
+/* .row { */
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+/* } */
+/* .jr{ justify-content: flex-end;} */
+/* .jc{ justify-content: center;} */
+/* .jl{ justify-content: flex-start;} */
+/* ce{ */
+    /* display: block; */
+/* } */
+
+#content {
+    position: relative;
+}
+
+#img {
+    border: 5px solid #666;
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 0;
+    margin-bottom: 20px;
+}
+
+.group {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+#row1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    width: 455px;
+    height: 19px;
+}
+#row2 {
+    position: absolute;
+    left: 41px;
+    top: 108px;
+    z-index: 1;
+    width: 456px;
+    height: 19px;
+}
+#row3 {
+    position: absolute;
+    left: 283px;
+    top: 110px;
+    z-index: 1;
+    width: 337px;
+    height: 19px;
+}
+#row4 {
+    position: absolute;
+    left: 324px;
+    top: 110px;
+    z-index: 1;
+    width: 337px;
+    height: 19px;
+}
+#row5 {
+    position: absolute;
+    left: 477px;
+    top: 104px;
+    z-index: 1;
+    width: 337px;
+    height: 19px;
+}
+#row6 {
+    position: absolute;
+    left: 518px;
+    top: 104px;
+    z-index: 1;
+    width: 337px;
+    height: 19px;
+}
+#row7 {
+    position: absolute;
+    left: 700px;
+    top: 104px;
+    z-index: 1;
+    width: 158px;
+    height: 17px;
+}
+
+#row8 {
+    position: absolute;
+    left: 0px;
+    top: 654px;
+    z-index: 1;
+    width: 218px;
+    height: 18px;
+}
+#row9 {
+    position: absolute;
+    left: 743px;
+    top: 392px;
+    z-index: 1;
+    width: 217px;
+    height: 18px;
+}
+
+#row10 {
+    position: absolute;
+    left: 783px;
+    top: 392px;
+    z-index: 1;
+    width: 217px;
+    height: 18px;
+}
+
+#row11 {
+    position: absolute;
+    left: 919px;
+    top: 392px;
+    z-index: 1;
+    width: 217px;
+    height: 18px;
+}
+
+
+
+
+
+
+.rotate90{
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+
