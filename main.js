@@ -23,7 +23,7 @@ var Mapper = {
         this.GetData();
         this.Start();
         this.Help();
-        this.Cursor();
+        //this.Cursor();
     },
     
     
